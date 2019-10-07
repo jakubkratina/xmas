@@ -1,0 +1,20 @@
+center(margin = 0 auto)
+  text-align: center
+  margin: margin
+
+underline()
+  text-decoration underline
+
+  &:hover
+    text-decoration none
+
+step-background(name)
+  background linear-gradient(90deg, #FFFFFF 0%, rgba(255,255,255,0.8) 51.83%, rgba(255,255,255,0.18) 69.49%, rgba(255,255,255,0) 100%), url('/assets/images/' + name)
+  background-size cover
+  background-repeat no-repeat
+  background-position center center
+
+clearfix()
+  content ""
+  display table
+  clear both

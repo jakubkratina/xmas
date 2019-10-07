@@ -1,0 +1,15 @@
+{
+    "name": "wise/tartaletka-xmas",
+    "authors": [
+        {
+            "name": "Jakub Kratina",
+            "email": "me@jakubkratina.cz"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.3",
+        "illuminate/validation": "^5.3",
+        "illuminate/http": "^5.3",
+        "illuminate/translation": "^5.3"
+    }
+}
